@@ -28,7 +28,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://nithish7uy:EU4G8ws46ZQr17
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #Time in seconds for message delete, put 0 to never delete
-TIME = int(os.environ.get("TIME", "21600"))
+TIME = int(os.environ.get("TIME", "60"))
 
 
 #force sub channel id, if you want enable force sub
@@ -48,7 +48,7 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e292b12890b8b4b
 TOKEN = True if os.environ.get('TOKEN', "True") == "True" else False 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "arolinks.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "ea7dec972a0670994ad2f4e6be0dc10688fb8db4")
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 600)) # Add time in seconds
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 21600)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/Tamil_LinksZzz/36")
 
