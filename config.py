@@ -28,7 +28,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://nithish7uy:EU4G8ws46ZQr17
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #Time in seconds for message delete, put 0 to never delete
-TIME = int(os.environ.get("TIME", "60"))
+TIME = int(os.environ.get("TIME", "21600"))
 
 
 #force sub channel id, if you want enable force sub
@@ -79,7 +79,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "нєℓℓo No Send ❌ Me Join @Warmovietamilss Or @Tamil_LinksZzz"
+USER_REPLY_TEXT = "нєℓℓo Join @Warmovietamilss Or @Tamil_LinksZzz"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(6497757690)
